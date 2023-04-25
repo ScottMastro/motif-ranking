@@ -48,23 +48,23 @@ def parse(file_name, outdir):
     
     ## neg_sites.txt ------------------------------------
 
-    max_sites = max([len(motif['neg_sites']) for motif in data['motifs']])
+    #max_sites = max([len(motif['neg_sites']) for motif in data['motifs']])
     
-    f = open(outdir + '/neg_sites.txt', 'w')
-    uids = [motif['uid'] for motif in data['motifs']]
-    f.write('\t'.join(uids) + '\n')
+    #f = open(outdir + '/neg_sites.txt', 'w')
+    #uids = [motif['uid'] for motif in data['motifs']]
+    #f.write('\t'.join(uids) + '\n')
     
-    for i in range(max_sites):
-       line = []
+    #for i in range(max_sites):
+    #   line = []
        
-       for motif in data['motifs']:
-          if i >= len(motif['neg_sites']):
-             line.append('NA')
-          else:
-             line.append(str(motif['neg_sites'][i]))
-       f.write('\t'.join(line) + '\n')
+    #   for motif in data['motifs']:
+    #      if i >= len(motif['neg_sites']):
+    #         line.append('NA')
+    #      else:
+    #         line.append(str(motif['neg_sites'][i]))
+    #   f.write('\t'.join(line) + '\n')
 
-    f.close() 
+    #f.close() 
    
 
 if __name__ == '__main__':
