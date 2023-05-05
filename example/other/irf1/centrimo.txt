@@ -1,0 +1,160 @@
+# WARNING: this file is not sorted!
+# db	id                         alt	 E-value	adj_p-value	log_adj_p-value	bin_location	bin_width	total_width	sites_in_bin	total_sites	p_success	 p-value	mult_tests
+   2	RTGAVTCA                 DREME	6.3e-128	   1.1e-130	        -299.22	         0.0	      275	        493	        8495	      12790	  0.55781	4.6e-133	       246
+   2	VGGAAR                   DREME	5.3e-005	   9.4e-008	         -16.18	         0.0	      259	        495	       23082	      42898	  0.52323	3.8e-010	       247
+   2	AMMCACA                  DREME	1.1e-007	   2.0e-010	         -22.33	         0.0	      212	        494	        8245	      18112	  0.42915	8.1e-013	       246
+   2	RTGASTAA                 DREME	2.2e-021	   3.8e-024	         -53.92	         0.0	      285	        493	        3388	       5213	  0.57809	1.6e-026	       246
+   2	RTAAAYA                  DREME	2.6e-006	   4.6e-009	         -19.19	         0.0	      248	        494	        9323	      17694	  0.50202	1.9e-011	       246
+   2	CACATWC                  DREME	3.3e-001	   5.8e-004	          -7.45	         0.0	      308	        494	        4225	       6490	  0.62348	2.4e-006	       246
+   2	ADGAATG                  DREME	8.2e-001	   1.5e-003	          -6.53	         0.0	      200	        494	        5679	      13410	  0.40486	5.9e-006	       246
+   2	CTGAGTMA                 DREME	8.9e-037	   1.6e-039	         -89.35	         0.0	      295	        493	        3257	       4696	  0.59838	6.4e-042	       246
+   3	MA0002.2                 RUNX1	2.4e-009	   4.2e-012	         -26.19	         0.0	      240	        490	       22585	      44479	  0.48980	1.7e-014	       244
+   3	MA0028.2                  ELK1	2.1e-015	   3.7e-018	         -40.13	         0.0	      253	        491	        7849	      14168	  0.51527	1.5e-020	       245
+   3	MA0030.1                 FOXF2	1.2e-004	   2.1e-007	         -15.36	         0.0	      323	        487	       10556	      15386	  0.66324	8.8e-010	       243
+   3	MA0031.1                 FOXD1	9.8e-002	   1.7e-004	          -8.66	         0.0	      323	        493	       22956	      34390	  0.65517	7.1e-007	       246
+   3	MA0032.2                 FOXC1	1.2e0000	   2.1e-003	          -6.16	         0.0	      214	        490	       16172	      36101	  0.43673	8.7e-006	       244
+   3	MA0033.2                 FOXL1	1.1e-003	   1.9e-006	         -13.15	         0.0	      266	        494	       20525	      37110	  0.53846	7.9e-009	       246
+   3	MA0040.1                 Foxq1	8.9e-001	   1.6e-003	          -6.45	         0.0	      394	        490	       18734	      22974	  0.80408	6.5e-006	       244
+   3	MA0042.2                 FOXI1	1.4e-006	   2.4e-009	         -19.83	         0.0	      258	        494	       18763	      34730	  0.52227	9.9e-012	       246
+   3	MA0046.2                 HNF1A	3.9e-001	   6.9e-004	          -7.28	         0.0	      174	        486	        7247	      19392	  0.35802	2.8e-006	       242
+   3	MA0047.2                 Foxa2	2.8e-008	   5.0e-011	         -23.72	         0.0	      173	        489	       11594	      31035	  0.35378	2.0e-013	       244
+   3	MA0062.2                 Gabpa	5.8e-029	   1.0e-031	         -71.35	         0.0	      264	        490	       14822	      25715	  0.53878	4.2e-034	       244
+   3	MA0067.1                  Pax2	2.0e-005	   3.5e-008	         -17.17	         0.0	      259	        493	       24655	      45650	  0.52535	1.4e-010	       246
+   3	MA0076.2                  ELK4	6.6e-025	   1.2e-027	         -62.02	         0.0	      256	        490	       15505	      27871	  0.52245	4.8e-030	       244
+   3	MA0080.4                  SPI1	1.0e0000	   1.9e-003	          -6.29	         0.0	      245	        487	        2098	       3901	  0.50308	7.6e-006	       243
+   3	MA0081.1                  SPIB	9.9e-005	   1.7e-007	         -15.56	         0.0	      270	        494	       25241	      45012	  0.54656	7.1e-010	       246
+   3	MA0089.1          MAFG::NFE2L1	1.9e-008	   3.4e-011	         -24.10	         0.0	      247	        495	       23406	      45348	  0.49899	1.4e-013	       247
+   3	MA0098.3                  ETS1	7.3e-024	   1.3e-026	         -59.61	         0.0	      257	        491	       17389	      31346	  0.52342	5.3e-029	       245
+   3	MA0099.2              FOS::JUN	9.4e-057	   1.7e-059	        -135.34	         0.0	      234	        494	       22664	      44173	  0.47368	6.8e-062	       246
+   3	MA0117.2                  Mafb	3.1e0000	   5.4e-003	          -5.22	         0.0	      413	        489	       31389	      36830	  0.84458	2.2e-005	       244
+   3	MA0119.1            NFIC::TLX1	5.9e0000	   1.0e-002	          -4.57	         0.0	      305	        487	        3469	       5318	  0.62628	4.3e-005	       243
+   3	MA0136.2                  ELF5	2.0e-019	   3.6e-022	         -49.38	         0.0	      258	        490	       23570	      42772	  0.52653	1.5e-024	       244
+   3	MA0137.3                 STAT1	8.4e-001	   1.5e-003	          -6.51	         0.0	      346	        490	       16167	      22473	  0.70612	6.1e-006	       244
+   3	MA0143.3                  Sox2	9.9e-005	   1.7e-007	         -15.56	         0.0	      201	        493	        2742	       6150	  0.40771	7.1e-010	       246
+   3	MA0148.3                 FOXA1	1.2e-009	   2.2e-012	         -26.84	         0.0	      248	        486	       13405	      25081	  0.51029	9.1e-015	       242
+   3	MA0150.2                Nfe2l2	4.5e-038	   8.0e-041	         -92.33	         0.0	      210	        486	       10586	      22147	  0.43210	3.3e-043	       242
+   3	MA0153.2                 HNF1B	3.8e-005	   6.7e-008	         -16.52	         0.0	      228	        488	        8238	      16772	  0.46721	2.7e-010	       243
+   3	MA0156.2                   FEV	1.5e-023	   2.6e-026	         -58.91	         0.0	      261	        491	       17965	      31943	  0.53157	1.1e-028	       245
+   3	MA0157.2                 FOXO3	4.8e-009	   8.5e-012	         -25.49	         0.0	      267	        493	       12918	      22812	  0.54158	3.5e-014	       246
+   3	MA0462.1             BATF::JUN	2.7e-072	   4.7e-075	        -171.14	         0.0	      258	        490	       14313	      24436	  0.52653	1.9e-077	       244
+   3	MA0472.2                  EGR2	6.3e0000	   1.1e-002	          -4.50	         0.0	      356	        490	        9856	      13290	  0.72653	4.6e-005	       244
+   3	MA0473.2                  ELF1	5.2e-027	   9.2e-030	         -66.86	         0.0	      211	        489	        5978	      12348	  0.43149	3.8e-032	       244
+   3	MA0474.2                   ERG	2.3e-025	   4.1e-028	         -63.06	         0.0	      257	        491	       17958	      32351	  0.52342	1.7e-030	       245
+   3	MA0475.2                  FLI1	1.3e-025	   2.3e-028	         -63.64	         0.0	      257	        491	       13576	      24235	  0.52342	9.4e-031	       245
+   3	MA0476.1                   FOS	7.7e-136	   1.4e-138	        -317.44	         0.0	      274	        490	       13321	      20632	  0.55918	5.6e-141	       244
+   3	MA0477.1                 FOSL1	2.3e-148	   4.0e-151	        -346.30	         0.0	      274	        490	       11625	      17708	  0.55918	1.6e-153	       244
+   3	MA0478.1                 FOSL2	1.4e-101	   2.4e-104	        -238.59	         0.0	      242	        490	       12214	      21482	  0.49388	9.9e-107	       244
+   3	MA0479.1                 FOXH1	7.0e-001	   1.2e-003	          -6.69	         0.0	      190	        490	        7020	      17369	  0.38776	5.1e-006	       244
+   3	MA0480.1                 Foxo1	4.4e-007	   7.8e-010	         -20.97	         0.0	      198	        490	       12246	      28884	  0.40408	3.2e-012	       244
+   3	MA0489.1            JUN(var.2)	6.7e-108	   1.2e-110	        -253.11	         0.0	      291	        487	       15581	      23282	  0.59754	4.9e-113	       243
+   3	MA0490.1                  JUNB	1.5e-148	   2.6e-151	        -346.72	         0.0	      276	        490	       12580	      19154	  0.56327	1.1e-153	       244
+   3	MA0491.1                  JUND	6.2e-147	   1.1e-149	        -343.00	         0.0	      274	        490	       10649	      16119	  0.55918	4.5e-152	       244
+   3	MA0492.1           JUND(var.2)	7.1e0000	   1.3e-002	          -4.37	         0.0	      204	        486	        4528	      10322	  0.41975	5.3e-005	       242
+   3	MA0496.1                  MAFK	4.1e-002	   7.3e-005	          -9.53	         0.0	      374	        486	       20801	      26587	  0.76955	3.0e-007	       242
+   3	MA0501.1             MAF::NFE2	2.4e-051	   4.2e-054	        -122.90	         0.0	      228	        486	        8220	      15430	  0.46914	1.7e-056	       242
+   3	MA0510.2                  RFX5	3.6e-001	   6.3e-004	          -7.37	         0.0	      327	        485	        2197	       3083	  0.67423	2.6e-006	       242
+   3	MA0511.2                 RUNX2	1.3e-008	   2.3e-011	         -24.50	         0.0	      184	        492	       12379	      31405	  0.37398	9.4e-014	       245
+   3	MA0514.1                  Sox3	1.9e0000	   3.3e-003	          -5.72	         0.0	      175	        491	       11725	      31886	  0.35642	1.3e-005	       245
+   3	MA0515.1                  Sox6	8.7e-006	   1.5e-008	         -17.99	         0.0	      201	        491	        9611	      22318	  0.40937	6.3e-011	       245
+   3	MA0591.1           Bach1::Mafk	1.5e-028	   2.6e-031	         -70.41	         0.0	      286	        486	        6747	      10443	  0.58848	1.1e-033	       242
+   3	MA0593.1                 FOXP2	9.3e-005	   1.6e-007	         -15.62	         0.0	      210	        490	       10046	      22391	  0.42857	6.7e-010	       244
+   3	MA0598.2                   EHF	2.7e-023	   4.9e-026	         -58.29	         0.0	      237	        489	       12375	      23783	  0.48466	2.0e-028	       244
+   3	MA0600.2                  RFX2	1.7e0000	   2.9e-003	          -5.83	         0.0	      323	        485	        1437	       2024	  0.66598	1.2e-005	       242
+   3	MA0605.1                  Atf3	5.0e-013	   8.8e-016	         -34.66	         0.0	      247	        493	       14403	      27326	  0.50101	3.6e-018	       246
+   3	MA0613.1                 FOXG1	4.9e-009	   8.7e-012	         -25.47	         0.0	      201	        493	        4488	      10095	  0.40771	3.5e-014	       246
+   3	MA0614.1                 Foxj2	5.4e-005	   9.6e-008	         -16.16	         0.0	      403	        493	       28357	      34157	  0.81744	3.9e-010	       246
+   3	MA0616.1                  Hes2	5.5e0000	   9.7e-003	          -4.64	         0.0	      360	        488	       32353	      43367	  0.73770	4.0e-005	       243
+   3	MA0640.1                  ELF3	1.1e-022	   1.9e-025	         -56.92	         0.0	      248	        488	        6751	      12107	  0.50820	7.8e-028	       243
+   3	MA0641.1                  ELF4	3.0e-022	   5.4e-025	         -55.88	         0.0	      253	        489	        8424	      15007	  0.51738	2.2e-027	       244
+   3	MA0645.1                  ETV6	2.5e-016	   4.4e-019	         -42.27	         0.0	      257	        491	       19366	      35306	  0.52342	1.8e-021	       245
+   3	MA0652.1                  IRF8	8.2e-001	   1.4e-003	          -6.54	         0.0	      175	        487	         492	       1166	  0.35934	6.0e-006	       243
+   3	MA0653.1                  IRF9	8.8e-001	   1.6e-003	          -6.46	         0.0	      308	        486	         844	       1216	  0.63374	6.5e-006	       242
+   3	MA0655.1                  JDP2	1.8e-126	   3.2e-129	        -295.86	         0.0	      234	        492	        9822	      17283	  0.47561	1.3e-131	       245
+   3	MA0656.1           JDP2(var.2)	5.4e-002	   9.5e-005	          -9.26	         0.0	      387	        489	        2015	       2424	  0.79141	3.9e-007	       244
+   3	MA0659.1                  MAFG	9.5e0000	   1.7e-002	          -4.08	         0.0	       90	        480	        2880	      14397	  0.18750	7.1e-005	       239
+   3	MA0661.1                 MEOX1	5.8e0000	   1.0e-002	          -4.58	         0.0	      455	        491	       32237	      34584	  0.92668	4.2e-005	       245
+   3	MA0677.1                 Nr2f6	6.2e0000	   1.1e-002	          -4.52	         0.0	      295	        487	        9515	      15317	  0.60575	4.5e-005	       243
+   3	MA0684.1                 RUNX3	3.2e-010	   5.7e-013	         -28.20	         0.0	      223	        491	       15738	      33087	  0.45418	2.3e-015	       245
+   3	MA0686.1                 SPDEF	2.8e-015	   4.9e-018	         -39.85	         0.0	      228	        490	        6855	      13582	  0.46531	2.0e-020	       244
+   3	MA0687.1                  SPIC	8.5e-004	   1.5e-006	         -13.40	         0.0	      299	        487	       21712	      34526	  0.61396	6.2e-009	       243
+   3	MA0742.1                 Klf12	2.3e0000	   4.0e-003	          -5.51	         0.0	      292	        486	        8583	      13887	  0.60082	1.7e-005	       242
+   3	MA0759.1                  ELK3	8.0e-027	   1.4e-029	         -66.43	         0.0	      271	        491	       17558	      29988	  0.55193	5.7e-032	       245
+   3	MA0760.1                   ERF	5.8e-019	   1.0e-021	         -48.34	         0.0	      273	        491	       15960	      27224	  0.55601	4.2e-024	       245
+   3	MA0761.1                  ETV1	8.9e-021	   1.6e-023	         -52.50	         0.0	      271	        491	       19925	      34356	  0.55193	6.4e-026	       245
+   3	MA0762.1                  ETV2	2.6e-021	   4.6e-024	         -53.74	         0.0	      270	        490	       10997	      18657	  0.55102	1.9e-026	       244
+   3	MA0763.1                  ETV3	7.5e-015	   1.3e-017	         -38.86	         0.0	      271	        491	       19467	      33769	  0.55193	5.4e-020	       245
+   3	MA0764.1                  ETV4	5.6e-025	   9.9e-028	         -62.18	         0.0	      257	        491	       20043	      36233	  0.52342	4.0e-030	       245
+   3	MA0765.1                  ETV5	3.1e-018	   5.4e-021	         -46.66	         0.0	      271	        491	       21957	      38045	  0.55193	2.2e-023	       245
+   3	MA0776.1                 MYBL1	9.6e0000	   1.7e-002	          -4.08	         0.0	      255	        489	        2678	       4879	  0.52147	7.0e-005	       244
+   3	MA0833.1                  ATF4	1.2e-001	   2.1e-004	          -8.45	         0.0	      290	        488	        6951	      11277	  0.59426	8.8e-007	       243
+   3	MA0834.1                  ATF7	3.0e0000	   5.3e-003	          -5.24	         0.0	      379	        487	        2101	       2590	  0.77823	2.2e-005	       243
+   3	MA0835.1                 BATF3	1.4e0000	   2.5e-003	          -5.98	         0.0	      419	        487	         652	        714	  0.86037	1.0e-005	       243
+   3	MA0841.1                  NFE2	1.0e-074	   1.8e-077	        -176.71	         0.0	      254	        490	        5005	       8033	  0.51837	7.4e-080	       244
+   3	MA0845.1                 FOXB1	5.1e0000	   9.0e-003	          -4.71	         0.0	      212	        490	       15236	      34371	  0.43265	3.7e-005	       244
+   3	MA0846.1                 FOXC2	4.3e-002	   7.6e-005	          -9.49	         0.0	      247	        489	       19371	      37394	  0.50511	3.1e-007	       244
+   3	MA0847.1                 FOXD2	2.9e-003	   5.2e-006	         -12.17	         0.0	      266	        494	       23436	      42477	  0.53846	2.1e-008	       246
+   3	MA0848.1                 FOXO4	2.8e-003	   4.9e-006	         -12.22	         0.0	      326	        494	       26482	      39349	  0.65992	2.0e-008	       246
+   3	MA0849.1                 FOXO6	8.2e-006	   1.5e-008	         -18.05	         0.0	      326	        494	       23024	      34038	  0.65992	5.9e-011	       246
+   3	MA0850.1                 FOXP3	1.4e-001	   2.5e-004	          -8.29	         0.0	      134	        494	       12292	      43680	  0.27126	1.0e-006	       246
+   3	MA0851.1                 Foxj3	1.1e-002	   1.9e-005	         -10.88	         0.0	      266	        484	       17085	      30261	  0.54959	7.8e-008	       241
+   3	MA0852.1                 Foxk1	2.0e-003	   3.6e-006	         -12.53	         0.0	      266	        484	       13802	      24330	  0.54959	1.5e-008	       241
+##
+# Detailed descriptions of columns in this file:
+#
+# db:	The name of the database (file name) that contains the motif.
+# id:	A name for the motif that is unique in the motif database file.
+# alt:	An alternate name of the motif that may be provided 
+#	in the motif database file.
+# E-value:	The expected number motifs that would have least one 
+#	region as enriched for best matches to the motif as the reported region.
+#	The E-value is the p-value multiplied by the number of motifs in the
+#	input database(s).
+# adj_p-value:	The probability that any tested region would be as enriched for
+#	best matches to this motif as the reported region is.
+#	By default the p-value is calculated by using the one-tailed binomial
+#	test on the number of sequences with a match to the motif 
+#	that have their best match in the reported region, corrected for
+#	the number of regions and score thresholds tested.
+#	The test assumes that the probability that the best match in a sequence
+#	falls in the region is the region width divided by the
+#	number of places a motif
+#	can align in the sequence (sequence length minus motif width plus 1).
+#	When CentriMo is run in discriminative mode with a negative
+#	set of sequences, the p-value of a region is calculated
+#	using the Fisher exact test on the 
+#	enrichment of best matches in the positive sequences relative
+#	to the negative sequences, corrected
+#	for the number of regions and score thresholds tested.
+#	The test assumes that the probability that the best match (if any)
+#	falls into a given region
+#	is the same for all positive and negative sequences.
+# log_adj_p-value:	Log of adjusted p-value.
+# bin_location:	Location of the center of the most enriched region.
+# bin_width:	The width (in sequence positions) of the most enriched region.
+#	A best match to the motif is counted as being in the region if the
+#	center of the motif falls in the region.
+# total_width:	The window maximal size which can be reached for this motif:
+#		rounded(sequence length - motif length +1)/2
+# sites_in_bin:	The number of (positive) sequences whose best match to the motif
+#	falls in the reported region.
+#	Note: This number may be less than the number of
+#	(positive) sequences that have a best match in the region.
+#	The reason for this is that a sequence may have many matches that score
+#	equally best.
+#	If n matches have the best score in a sequence, 1/n is added to the
+#	appropriate bin for each match.
+# total_sites:	The number of sequences containing a match to the motif
+#	above the score threshold.
+# p_success:	The probability of falling in the enriched window:
+#		bin width / total width
+# p-value:	The uncorrected p-value before it gets adjusted to the
+#	number of multiple tests to give the adjusted p-value.
+# mult_tests:	This is the number of multiple tests (n) done for this motif.
+#	It was used to correct the original p-value of a region for
+#	multiple tests using the formula:
+#		p' = 1 - (1-p)^n where p is the uncorrected p-value.
+#	The number of multiple tests is the number of regions
+#	considered times the number of score thresholds considered.
+#	It depends on the motif length, sequence length, and the type of
+#	optimizations being done (central enrichment, local enrichment,
+#	score optimization).
