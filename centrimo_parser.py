@@ -18,38 +18,37 @@ def parse(file_name, outdir):
     # ---------------------- meta.txt ----------------------
 
     keys = ['uid', 'id', 'alt', 'len', 'motif_evalue', 'n_tested',
-            'total_sites', 'neg_total_sites']
+            'total_sites']
 
-    f = open(outdir + '/meta.txt', 'w')
-    f.write('\t'.join(keys) + '\n')
+    if 'neg_total_sites' in data['motifs'][0]:
+        keys.append('neg_total_sites')
 
-    for i, motif in enumerate(data['motifs']):
-        motif['uid'] = "motif_" + str(i).zfill(5)
-        line = [str(motif[key]) for key in keys]
+    with open(outdir + '/meta.txt', 'w') as f:
+        f.write('\t'.join(keys) + '\n')
 
-        f.write('\t'.join(line) + '\n')
+        for i, motif in enumerate(data['motifs']):
+            motif['uid'] = "motif_" + str(i).zfill(5)
+            line = [str(motif[key]) for key in keys]
 
-    f.close()
+            f.write('\t'.join(line) + '\n')
 
     # ---------------------- sites.txt ----------------------
 
     max_sites = max([len(motif['sites']) for motif in data['motifs']])
 
-    f = open(outdir + '/sites.txt', 'w')
-    uids = [motif['uid'] for motif in data['motifs']]
-    f.write('\t'.join(uids) + '\n')
+    with open(outdir + '/sites.txt', 'w') as f:
+        uids = [motif['uid'] for motif in data['motifs']]
+        f.write('\t'.join(uids) + '\n')
 
-    for i in range(max_sites):
-        line = []
+        for i in range(max_sites):
+            line = []
 
-        for motif in data['motifs']:
-            if i >= len(motif['sites']):
-                line.append('NA')
-            else:
-                line.append(str(motif['sites'][i]))
-                f.write('\t'.join(line) + '\n')
-
-    f.close()
+            for motif in data['motifs']:
+                if i >= len(motif['sites']):
+                    line.append('NA')
+                else:
+                    line.append(str(motif['sites'][i]))
+                    f.write('\t'.join(line) + '\n')
 
 
 if __name__ == '__main__':
