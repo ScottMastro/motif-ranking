@@ -1,8 +1,10 @@
 source("helper.R")
+library(dplyr)
 library(reshape2)
 library(ggplot2)
-#library("ggthemes")
-library("plyr")
+
+options('stringsAsFactors'=FALSE)
+
 
 args <- commandArgs(trailingOnly = TRUE)
 
@@ -12,6 +14,10 @@ if (length(args) < 3) {
 
 #parse files
 centrimo <- read.csv(args[1], sep="\t")
+
+# rename needed columns in new centrimo.tsv format, back to prior centrimo.txt
+centrimo <- rename_with(centrimo, recode, motif_id = "id", motif_alt_id = "alt")
+
 meta <- read.csv(args[2], sep="\t")
 sites <- read.csv(args[3], sep="\t")
 
@@ -26,11 +32,9 @@ get.obs <- function(sites, uid){
   start <- -length(s)/2 + 0.5
   pos <- seq(start, start+length(s)-0.5)
   return(list(pos, s))
-  #list(count[rep(seq(1, nrow(count)), count$sites), "position"], nrow(count))
 }
 
 calculate_cliffs <- function(uid){
-  #print(paste("doing", uid, "..."))
   counts = get.obs(sites, uid)
   cliffs.delta(counts[[1]], counts[[2]])
 }
@@ -70,12 +74,3 @@ result <- result[order(-result$credible), ]
 result$credible.rank <- 1:nrow(result) 
 
 write.table(result, outfile, sep="\t", row.names=FALSE, quote=FALSE)
-
-#ggplot(result, aes(x=centrimo.rank,y=cliffs.delta.rank)) +
-#  geom_point()
-
-#ggplot(result, aes(x=cliffs.delta.rank,y=zeta.rank)) +
-#  geom_point()
-
-#ggplot(result, aes(x=centrimo.rank,y=credible.rank)) +
-#  geom_point()
