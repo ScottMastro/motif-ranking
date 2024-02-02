@@ -17,11 +17,8 @@ def parse(file_name, outdir):
 
     # ---------------------- meta.txt ----------------------
 
-    keys = ['uid', 'id', 'alt', 'len', 'motif_evalue', 'n_tested',
-            'total_sites']
-
-    if 'neg_total_sites' in data['motifs'][0]:
-        keys.append('neg_total_sites')
+    keys = ['uid', 'id', 'alt', 'len', 'motif_evalue',
+            'n_tested', 'total_sites']
 
     with open(outdir + '/meta.txt', 'w') as f:
         f.write('\t'.join(keys) + '\n')
